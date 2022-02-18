@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+.card {
+    width: 25%;
+    min-width: 250px;
+    padding: 25px;
+    border-radius: 20px;
+    color: hsl(215, 51%, 70%);
+    background: hsl(216, 50%, 16%);
+    text-align: center;
+}
+
+.title {
+  color: rgb(167, 209, 233);
+  font-size: 18px;
+}
+
+.closeButton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #2ae586;
+  padding-left: 5px;
+}
+
+.image-main{
+    position: relative;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(216, 54%, 11%);
+}
+.profileImage{
+    border-radius: 50%;
+    width:100%;
+}
+
+.card h1 {
+    margin: 20px 0;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
