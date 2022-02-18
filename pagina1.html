@@ -6,17 +6,21 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="styles.css">
+<script src="profileCard.js"></script>
 
 </head>
 <script>
     function showMessageFunction() {
       var name = document.getElementById('name_user').value;
-      alert ("Thanks "+ name + " for reaching out! I will contact you soon :)");  
+      alert ("Thanks "+ name + " for reaching out! I will contact you soon :)"); 
+      var myModal = document.getElementById('#myModal');
+        
+      myModal.hide();
     }
     </script>
 <body>
 
-<div class="card">
+<!--<div class="card">
   <img src="Images/profile.jpg" class="profileImage">
   <h1>Itzel Vigil</h1>
   <p class="title">Software Engineer</p>
@@ -28,7 +32,8 @@
     <a href="#"><i class="fa fa-facebook"></i></a> 
   </div>
   <p><button data-toggle="modal" class="closeButton" data-target="#myModal">Contact</button></p>
-</div>
+</div>-->
+<profile-card></profile-card>
 
 <div class="modal" id="myModal">
     <div class="modal-dialog">
